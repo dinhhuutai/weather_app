@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: white;
+    text-shadow: 1px 1px #000;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: linear-gradient(180deg, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../img/welcomeWeather.jpg) center top / cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: 0.4s;
+}
+
+.weather-app{
+    width: 600px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background: url(../img/welcomeWeather.jpg) center top / cover no-repeat;
+    transition: 0.4s;
+}
+
+.weather-container{
+    padding: 28px 0;
+}
+
+.search-geolocation{
+    
+}
+
+.search-input{
+    width: 480px;
+    outline: none;
+    border: none;
+    padding: 12px 28px;
+    font-size: 2rem;
+    background-color: #91a7ff;
+    border-radius: 5px 20px 5px;
+    transition: .4s;
+}
+
+.search-input::placeholder{
+    color: white;
+}
+
+.search-input:hover{
+    border-radius: 20px 5px 20px;
+    transition: .4s;
+}
+
+.container-body{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.location,
+.time{
+    display: flex;
+    font-size: 2.6rem;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.time{
+    font-size: 1.6rem;
+}
+
+.location h3,
+.time p{
+    padding: 0 4px;
+}
+
+.body-weather{
+    margin-top: 42px;
+    text-align: center;
+}
+
+.temperature{
+    padding: 24px 32px;
+    border-radius: 10px;
+    background-color: #91a7ff;
+}
+
+.temperature h3{
+    font-size: 4rem;
+}
+
+.weather{
+    margin-top: 36px;
+    font-size: 3.2rem;
+}
+
+.footer-weather{
+    margin-top: 54px;
+    width: 100%;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vision,
+.windspeed,
+.cloud{
+    min-width: 64px;
+    text-align: center;
+}
+
+.vision i,
+.windspeed i,
+.cloud i{
+    margin-bottom: 6px;
+    font-size: 1.8rem;
+}
+
+
